@@ -15,11 +15,6 @@ namespace Bank
             interests += interset;
         }
 
-        public override void IncreaseBalance(decimal amount)
-        {
-            balance = interests + balance;
-        }
-
         public override decimal getBalance()
         {
             return balance + interests;

@@ -11,7 +11,7 @@ namespace Bank
 			balance = 0;
 		}
 
-		public virtual void IncreaseBalance(decimal amount)
+		public void IncreaseBalance(decimal amount)
 		{
 			balance += amount;
 		}
